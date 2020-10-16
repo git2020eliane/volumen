@@ -1,0 +1,67 @@
+
+.barre{
+    height:50px;
+    background-color:rgb(71,221,255);
+    top:0px;
+    left:0px;
+    position: relative;
+    }
+ 
+.contact{
+    display: inline-block;
+    position: absolute;
+    right:20px;
+    top:10px;
+    color:rgb(92,108,125);
+}   
+.accueil{
+    display: inline-block;
+    position: absolute;
+    right:200px;
+    top:10px;
+    color:rgb(92,108,125);
+}
+
+.image_principale{
+    margin-left:30%;
+    margin-top:10vh;
+}
+
+.text{
+text-align: center;
+padding-top:5vh;
+margin-left:20vw ;
+margin-right: 20vw;
+color:rgb(92, 108, 125);
+
+}
+.list-group{
+width: 80%;
+margin-left:10% ;
+margin-top:40px ;
+}
+.card{
+height:95%;
+}
+
+.bloc{
+width: 100%;
+margin-top: 10%;
+}
+
+.article1{
+width: 80%;
+margin-top:10%;
+margin-left:20%;
+margin-right:20%;
+}
+
+.article2{
+    width: 80%;
+    margin-top:20%;
+    margin-left:20%;
+    margin-right:20%;
+
+
+
+}
