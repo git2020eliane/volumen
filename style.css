@@ -6,6 +6,12 @@
     left:0px;
     position: relative;
     }
+
+    .imglogo{
+    height: 9%;
+    width: 9%;
+
+    }
  
 .contact{
     display: inline-block;
@@ -23,8 +29,10 @@
 }
 
 .image_principale{
-    margin-left:30%;
+   margin-left: 25% ;
     margin-top:10vh;
+width: 50%;
+
 }
 
 .text{
@@ -35,33 +43,86 @@ margin-right: 20vw;
 color:rgb(92, 108, 125);
 
 }
-.list-group{
-width: 80%;
-margin-left:10% ;
-margin-top:40px ;
+
+h2{
+color:rgb(71,221,255);
+text-align:center;
+padding-top: 5vh;
+
 }
+
+.list-group{
+width: 70%;
+margin-top:60% ;
+margin-left: 10%;
+}
+
 .card{
-height:95%;
+height:80%;
+padding-left:10% ;
+padding-right:10%;
+padding-bottom: 2%;
 }
 
 .bloc{
 width: 100%;
-margin-top: 10%;
+margin-top:5%;
+
+
 }
 
 .article1{
-width: 80%;
-margin-top:10%;
+background-color: rgb(248,207,64);
+width: 70%;
+margin-top:30%;
 margin-left:20%;
-margin-right:20%;
+margin-right:10% ;
+
 }
 
 .article2{
-    width: 80%;
-    margin-top:20%;
-    margin-left:20%;
-    margin-right:20%;
+width:70%;
+margin-top:10%;
+margin-left:20%;
+margin-right:10%;
+}
 
+.pied{
+height:30px;
+padding-top: 8%;
 
+}
 
+.carte{
+width:100%;
+border:1px solid black;
+}
+
+.adresse{
+width:100%;
+height:100%;
+text-align:center;
+padding:7%;
+border:1px solid black;
+background-color:rgb(248,207,64);
+}
+.lien{
+    width:100%;
+    height:100%;
+    text-align:center;
+    padding:7%;
+    border:1px solid black;
+    background-color:rgb(71,221,255);
+   
+}
+.reseaux_sociaux{
+    width:100% ;
+    height:100%;
+    border:1px solid black;
+
+}
+.icone{
+width :20% ;
+height: 20%;
+text-align: center;
 }
