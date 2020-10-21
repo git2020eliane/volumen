@@ -15,54 +15,49 @@
 .contact{
     display: inline-block;
     position: absolute;
-    right:20px;
+    right:120px;
     top:10px;
     color:rgb(92,108,125);
 }   
 .accueil{
+display: inline-block;
+position: absolute;
+right:220px;
+top:10px;
+color:rgb(92,108,125);
+}
+.panier{
     display: inline-block;
     position: absolute;
-    right:200px;
+    right:30px;
     top:10px;
     color:rgb(92,108,125);
 }
+
 .container {
-    max-width: 970px;
-    
+max-width: 970px;
 }
 
-
-
 .lh-condensed {
-    line-height: 1.25; 
+line-height: 1.25; 
 }
 
 h2{
 color:rgb(71,221,255);
 text-align:center;
 padding-top:8vh;
-
 height:70%;
-
 }
 
 h5{
 color:rgb(92,108,125);
-padding-left:8%;
 padding-bottom: 1%;
-
-
 }
+
 label{
-    color:rgb(92,108,125);
-    
+color:rgb(92,108,125);
 }
-
-
-
 
 .message{
 height: 50vh;
-
-
 }

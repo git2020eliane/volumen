@@ -1,246 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>volumen</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container-fluid " >
-    <header>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <header>
       <!--début navbar avec logo -->
-      <div class="barre">
+        <div class="barre">
           <nav>
-            <a class="logo" href="a_propos.html"><img class="imglogo" src="images/logovolumen2.png"alt="photo de logo"></a>
+            <a class="logo" href="a_propos.html"><img class="imglogo" src="images/logovolumen2.png"
+              alt="photo de logo"></a>
             <a class="accueil" href="index.html">Accueil</a>
             <a class="contact" href="formulaire.html">Contact</a>
+            <a class="panier" href="#">Panier</a>
           </nav>
-      </div>
+        </div>
 
-       <!--  debut barre de recherche-->
-      <div class="recherche">
-        <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-        </form>
- 
-
+        <!--  debut barre de recherche-->
+        <div class="recherche">
+          <nav class="navbar navbar-light bg-light">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Recherche</button> 
+            </form>
           <!-- fin barre de recherche -->
+      <!-- fin de la deuxième ligne navbar et boutons -->
+      </header>
 
-          <!-- boutons -->
-          <div class="bouton">
-            <a class="accueil" href="recherche avancée">Recherche avancée</a>
-            <a class="contact" href="formulaire de commande">Panier</a>
-          </div>
-        </nav>
-      </div>
-       
-        <!-- fin de la deuxième ligne navbar et boutons -->
-    </header> 
-    <main>
+      <main>
+        <div class="container-fluid ">
+
         <!-- image principale -->
         <div class="image principale">
           <img class="image_principale" src="images/image_principale.png" class="img-fluid" alt="bibliothèque de livres">
         </div>
+
         <!-- texte de présentation -->
         <section>
           <div class="text">
             <p>La librairie d'occasion<strong> Volumen</strong> ouvrira ses portes le premier avril 2021 à Lyon.</p>
-          <p>Vous y trouverez des ouvrages anciens ou contemporains, dans des domaines variés et à des prix très attractifs.</p>
+            <p>Vous y trouverez des ouvrages anciens ou contemporains, dans des domaines variés et à des prix très
+            attractifs.</p>
           </div>
         </section>
         <!-- fin texte de présentation -->
 
-            
         <!-- Début row centrale avec trois blocs-->
-      <article class="centre">
-        <div class="blocs_centres">
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-3">
-    
-        <!-- début section catégories -->
-        <section>
-        <div class="catégorie">
-          <ul class="list-group">
-          
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Livres anciens</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Littérature</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Beaux arts</a>
-            <a href="voyages.html" class="list-group-item list-group-item-action list-group-item-primary">Voyages</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Histoire</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Jeunesse</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Bandes dessinées</a>
-          </ul>
-        </div>
-        </section>
-        <!-- Fin sectioncatégories -->
-      </div>
-
-            <div class="col-5">
-              <h2>Nouveautés</h2>   
-        <!-- début section cartes -->
-        <section class="bloc"> 
-          <div class="cartes">
+        <article class="centre">
+          <div class="blocs_centres">
             <div class="container">
-
               <div class="row">
 
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/millet.jpg" class="card-img-top" alt="photo d'un livre de Millet">
-                    <div class="card-body">
-                      
-                     
+              <div class="col-12 col-md-5 col-lg-3 col col-order-12 col-order-1 ">
+                <!-- début section catégories -->
+                <section>
+                  <div class="catégorie">
+                      <section class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Livres
+                        anciens</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Littérature</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Beaux arts</a>
+                        <a href="voyages.html"
+                        class="list-group-item list-group-item-action list-group-item-primary">Voyages</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Histoire</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Jeunesse</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Bandes
+                        dessinées</a>
+                      </section>
                     </div>
-                  </div>
+                </section>
+                <!-- Fin sectioncatégories -->
                 </div>
 
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/algarve.jpg" class="card-img-top" alt="livre sur les Andes">
-                    <div class="card-body">
-                     
-                     
-                    </div>
-                  </div>
-                </div>
+                <div class="col-12 col-md-5 col-lg-5">
+                  <h2>Nouveautés</h2>
+                  <!-- début section cartes -->
+                  <section class="bloc">
+                    <div class="cartes">
+                      <div class="container">
 
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/decouverte.jpg" class="card-img-top" alt="un ouvrage sur les livres de découverte du monde">
-                    <div class="card-body">
+                        <div class="row">
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card">
+                              <img src="images/millet.jpg" class="card-img-top" alt="photo d'un livre de Millet">
+                            <div class="card-body"></div>
+                          </div>
+                        </div>
+                        
+
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card" >
+                              <img src="images/algarve.jpg" class="card-img-top" alt="livre sur les Andes">
+                              <div class="card-body"></div>
+                            </div>
+                          </div>
+                        
+
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card" >
+                              <img src="images/decouverte.jpg" class="card-img-top"
+                                alt="un ouvrage sur les livres de découverte du monde">
+                              <div class="card-body"> </div>
+                            </div>
+                          </div>
+                        
                     
-                    
-                    </div>
-                  </div>
-                </div>
-                
-                
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card" >
+                              <img src="images/vases.jpg" class="card-img-top" alt="livre sur belles verreries">
+                              <div class="card-body"> </div>
+                            </div>
+                          </div>
 
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card" >
+                              <img src="images/maisons_normandes.jpg" class="card-img-top"
+                                alt="livre sur les maisons normandes">
+                              <div class="card-body"></div>
+                            
+                            </div>
+                          </div>
+
+                          <div class="col-6 col-md-6 col-lg-4">
+                            <div class="card" >
+                              <img src="images/calvaires bretons.jpg" class="card-img-top" alt="livre calvaires bretons">
+                              <div class="card-body"></div>
+                            </div>
+                          </div>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <!-- fin sections cartes -->
+
+              <!-- Debut section article -->
+              <div class="col-12  col-md-12 col-lg-4">
+                <div class="article1">
+                  <p>Lyon est une ville où le livre a toujours eu une place privilégiée.
+                    Dès la fin du quinzième siècle des imprimeurs s'installent à Lyon,
+                    et au siècle suivant, la ville devient avec Paris, l'une des principales
+                    sources de publication d'ouvrages....</p>
+                  <a href="article.html">Lire la suite</a>
+                </div>
+
+                <div class="article2">
+                  <p>Le "marché aux livres" à Lyon, est implanté Quai de la Pêcherie, sur la rive gauche de la Saone.
+                     Il compte une vingtaine de marchands, qui vendent leurs ouvrages le week-end. 
+                  </p>
+                </div>
               </div>
-                <!--deuxième rangée de livres  -->
-              <div class="row">
-
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/vases.jpg" class="card-img-top" alt="livre sur belles verreries">
-                    <div class="card-body">
-                     
-                   
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/maisons_normandes.jpg" class="card-img-top"  alt="livre sur les maisons normandes">
-                    <div class="card-body">
-                     
-                      
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-4">
-                  <div class="card" style="width: 10rem;">
-                    <img src="images/calvaires bretons.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      
-                    
-                    </div>
-                  </div>
-                </div>
-                
-                
-
-              </div>
-          
-
 
             </div>
-          </div>
-        </section>
-    </div>
-    <!-- fin sections cartes -->
-
-    <!-- Debut section article -->
-          <div class="col-4">
-              <div class="article1">
-              <p>Lyon est une ville où le livre a toujours eu une place privilégiée.
-                Dès la fin du quinzième siècle des imprimeurs s'installent à Lyon,
-                et au siècle suivant, la ville devient avec Paris, l'une des principales
-                sources de publication d'ouvrages....</p>
-                <a href="article.html">Lire la suite</a>
-              </div>
-              <div class="article2">   
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem explicabo in corrupti ex sit adipisci sed cupiditate earum quis delectus, fugit cum aliquam quidem voluptatibus molestias, voluptatem fuga ratione?</p>
-              </div>
-          </div>
-         </div> 
+          </article>
+        <!-- fin de la partie principale-->
         </div>
-        </div>
-      </article>
-      <!-- fin de la partie principale-->
-    </main> 
+      </main>
 
-    <footer>
-        <div class="container">
-          <div class="pied">
+      <footer>
+ 
+        <div class="">
           <div class="row">
             <!--carte de lyon-->
-            <div class="col-3">
+            <div class="col-6 col-md-6 col-lg-3">
               <div class="maps">
-                  <img class="carte" src="images/map_lyon.png" alt="carte de Lyon">
+                <img class="carte" src="images/map_lyon.png" class="img-fluid" alt="carte de Lyon">
               </div>
-            </div>
-
-           <!--Adresse, -->
-            <div class="col-3">
-                <div class="adresse"> 
-                  <p> Librairie Volumen</p> 
-                  <p> Quai de la Pêcherie</p>
-                  <p>69002 Lyon</p>
-              </div>
-            </div>
-            
-            <!--à propos-->
-            <div class="col-3">
-                <div class="lien">
-                  <a href="a_propos.html">A propos</a>
-                   
-
-
-                </div>
-               
             </div>
           
-
-            <div class="col-3">
-                <div class="reseaux_sociaux">
-                 <img class="icone" src="images/facebook.png" alt="logo de facebook">
-
-
-
-
-                </div>
+            <!--Adresse, -->
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="adresse">
+                <p> Librairie Volumen <br>
+                Quai de la Pêcherie <br>
+                69002 Lyon</p>
+              </div>
             </div>
-            
+
+            <!--à propos-->
+            <div class="col-6 col-md-6 col-lg-3">
+              <nav>
+                <div class="lien">
+                  <a href="a_propos.html">A propos</a>
+                
+                <div class="confidentialité">
+                  <div class="mt-3">
+                    <a href="#">Politique de confidentialité</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="reseaux_sociaux">
+                <div class="pl-5 pt-5">
+                  <img class="icone" src="images/icon_facebook.png" alt="logo de facebook">
+                  <img class="icone" src="images/icon_instagram.png" alt="logo d'instagram">
+                  <img class="icone" src="images/icon_twitter.png" alt=" logo de twitter">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+    </div>
+  </body>
 
-
-
-    </footer>
-  </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>   
-</body>
 </html>

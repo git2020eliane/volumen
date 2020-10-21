@@ -14,65 +14,65 @@
             <!--début navbar avec logo -->
             <div class="barre">
                 <nav>
-                    <a class="logo" href="a_propos"><img class="imglogo" src="images/logovolumen2.png"alt="photo de logo"></a>
+                    <a class="logo" href="a_propos.html"><img class="imglogo" src="images/logovolumen2.png"alt="photo de logo"></a>
                     <a class="accueil" href="index.html">Accueil</a>
-                    <a class="contact" href="formulaire contact">Contact</a>
+                    <a class="contact" href="formulaire.html">Contact</a>
+                    <a class="panier" href="#">Panier</a>
                 </nav>
             </div>
         </header>
         <!--fin navbarre-->
         <main>
-            <h2>Librairie Volumen</h2>
-            <h5>Nous contacter :</h5>
-
-            <div class="container">
-            <section class="forme">
-                <form class="needs-validation" novalidate>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="firstName">Prénom</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                             Valid first name is required.
+            <div class="pt-3 pb-3">
+                <h2>Librairie Volumen</h2>
+            </div>
+            <div class="ml-3">
+                <h5>Nous contacter :</h5>
+            </div>
+            <div class="container-fluid">
+                <section class="forme">
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">Prénom</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid first name is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Nom</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid last name is required.
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
-                             <label for="lastName">Nom</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                             Valid last name is required.
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="mb-3">
+                        <div class="mb-3">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="vous@exemple.com">
                             <div class="invalid-feedback">
                             Please enter a valid email address .
                             </div>
-                    </div>
+                        </div>
 
-                    <div class="mb-3">
+                        <div class="mb-3">
                             <label for="address">Adresse</label>
                             <input type="text" class="form-control" id="address" placeholder="ex: 12 rue du premier avril Lyon" required>
                             <div class="invalid-feedback">
                             Please enter your address.
                             </div>
-                    </div>
+                        </div>
 
-                    <div class="mb-3">
+                        <div class="mb-3">
                             <div class="form-group">
                             <label for="exampleFormControlTextarea1">Votre message</label>
                             <textarea class="form-control"  id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
+                        </div>
                     </div>
-
-            </section>
+                </section>
             </div>
-
         </main>
-
-    
     </body>
 </html>

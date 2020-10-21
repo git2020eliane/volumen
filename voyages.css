@@ -1,34 +1,41 @@
-
 .barre{
-    height:50px;
-    background-color:rgb(71,221,255);
-    top:0px;
-    left:0px;
-    position: relative;
-    }
+height:50px;
+background-color:rgb(71,221,255);
+top:0px;
+left:0px;
+position: relative;
+}
 
-    .imglogo{
-    height: 9%;
-    width: 9%;
-    
-    }
+.imglogo{
+height: 9%;
+width: 9%;
+}
+
 .contact{
-    display: inline-block;
-    position: absolute;
-    right:20px;
-    top:10px;
-    color:rgb(92,108,125);
-  
-
+display: inline-block;
+position: absolute;
+right:120px;
+top:10px;
+color:rgb(92,108,125);
 }   
+
 .accueil{
-    display: inline-block;
-    position: absolute;
-    right:200px;
-    top:10px;
-    color:rgb(92,108,125);
-   
+display: inline-block;
+position: absolute;
+right:220px;
+top:10px;
+color:rgb(92,108,125);
 } 
+
+.panier{
+display: inline-block;
+position: absolute;
+right:30px;
+top:10px;
+color:rgb(92,108,125);
+}
+
+
 h1{
 color:rgb(71,221,255);
 text-align:center;
@@ -37,13 +44,15 @@ padding-top: 10vh;
 
 .card{
 height:90%;
-
-
 }
+
 .bloc{
 margin-left:12%;
 margin-right: 10%;
 margin-top:5% ;
 margin-bottom: 5%;
-
 }
+
+
+
+

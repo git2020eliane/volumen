@@ -1,4 +1,3 @@
-
 .barre{
     height:50px;
     background-color:rgb(71,221,255);
@@ -10,23 +9,36 @@
     .imglogo{
     height: 9%;
     width: 9%;
-
+    
     }
- 
 .contact{
     display: inline-block;
     position: absolute;
-    right:20px;
+    right:120px;
     top:10px;
     color:rgb(92,108,125);
+  
+
 }   
 .accueil{
     display: inline-block;
     position: absolute;
-    right:200px;
+    right:220px;
+    top:10px;
+    color:rgb(92,108,125);
+   
+   
+} 
+.panier{
+    display: inline-block;
+    position: absolute;
+    right:30px;
     top:10px;
     color:rgb(92,108,125);
 }
+
+
+
 
 .image_principale{
    margin-left: 25% ;
@@ -41,13 +53,16 @@ padding-top:5vh;
 margin-left:20vw ;
 margin-right: 20vw;
 color:rgb(92, 108, 125);
-
+}
+strong{
+    color:rgb(71,221,255);
 }
 
 h2{
 color:rgb(71,221,255);
 text-align:center;
 padding-top: 5vh;
+padding-bottom:5%;
 
 }
 
@@ -55,74 +70,101 @@ padding-top: 5vh;
 width: 70%;
 margin-top:60% ;
 margin-left: 10%;
+background-color: rgb(71,221,255);
 }
 
 .card{
 height:80%;
+width:120% ;
 padding-left:10% ;
 padding-right:10%;
 padding-bottom: 2%;
 }
 
+
+
+
+
 .bloc{
 width: 100%;
-margin-top:5%;
-
-
+margin-top:10%;
 }
 
 .article1{
-background-color: rgb(248,207,64);
+background-color:rgb(71,221,255);
+border-radius: 5%;
 width: 70%;
-margin-top:30%;
+margin-top:40%;
 margin-left:20%;
 margin-right:10% ;
+padding: 5%;
+
 
 }
 
 .article2{
+background-color: rgb(248,207,64);
+border-radius: 5%;
 width:70%;
 margin-top:10%;
 margin-left:20%;
 margin-right:10%;
+margin-bottom:15%;
+padding:5% ;
 }
 
 .pied{
-height:30px;
-padding-top: 8%;
-
+    padding-top: 10%;
+   
 }
 
+
 .carte{
-width:100%;
+width:69% ;
 border:1px solid black;
+border-radius: 5%;
+margin-left:20%; 
 }
 
 .adresse{
 width:100%;
-height:100%;
+height:99%;
 text-align:center;
 padding:7%;
 border:1px solid black;
+border-radius:5% ;
 background-color:rgb(248,207,64);
+
+
+
 }
 .lien{
     width:100%;
-    height:100%;
+    height:130px;
     text-align:center;
     padding:7%;
     border:1px solid black;
+    border-radius:5% ;
     background-color:rgb(71,221,255);
    
 }
 .reseaux_sociaux{
-    width:100% ;
-    height:100%;
+    
+    height:130px;
     border:1px solid black;
-
+    border-radius: 5%;
+    background-color: rgb(237,237,237);
 }
 .icone{
-width :20% ;
-height: 20%;
-text-align: center;
+height:20%;
+width: 20%;
+border-radius: 5%;
+}
+ 
+
+
+footer{
+ 
+    bottom:0px;
+    
 }
